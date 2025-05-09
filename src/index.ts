@@ -1,8 +1,8 @@
 import Root from "./Root/Root";
-import modificarJardin from "./components/jardin";
-import inicioApp from "./components/inicio"; 
-import cardComponent from "./components/card";
-import modoAdmi from "./components/adminMode";
+import modificarJardin from "./components/Jardin";
+import inicioApp from "./components/Inicio"; 
+import cardComponent from "./components/Card";
+import modoAdmi from "./components/AdminMode";
 
 customElements.define('root-element', Root);
 customElements.define('modificar-Jardin', modificarJardin)
