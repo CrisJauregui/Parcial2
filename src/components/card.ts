@@ -1,7 +1,7 @@
 import { State } from "../flux/Store";
 import { Actions } from "../flux/Actions";
 
-class cardComponent extends HTMLElement{
+class Card extends HTMLElement{
     static observedAttributes = ["color", "size"];
   
     constructor() {
@@ -30,6 +30,5 @@ class cardComponent extends HTMLElement{
     }
   }
   
-  customElements.define("card-Component", cardComponent);
   
-export default cardComponent;
+export default Card;

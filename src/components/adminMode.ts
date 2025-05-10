@@ -1,7 +1,7 @@
 import { State } from "../flux/Store";
 import { Actions } from "../flux/Actions";
 
-class modoAdmi extends HTMLElement {
+class AdminMode extends HTMLElement {
     static observedAttributes = ["color", "size"];
   
     constructor() {
@@ -30,6 +30,5 @@ class modoAdmi extends HTMLElement {
     }
   }
   
-  customElements.define("modo-Admi", modoAdmi);
   
-export default modoAdmi;
+export default AdminMode;

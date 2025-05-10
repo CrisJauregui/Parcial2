@@ -1,7 +1,7 @@
 import { State } from "../flux/Store";
 import { Actions } from "../flux/Actions";
 
-class inicioApp extends HTMLElement {
+class Inicio extends HTMLElement {
     static observedAttributes = ["color", "size"];
   
     constructor() {
@@ -29,7 +29,6 @@ class inicioApp extends HTMLElement {
       console.log(`Attribute ${name} has changed.`);
     }
   }
+
   
-  customElements.define("inicio-App", inicioApp);
-  
-export default inicioApp;
+export default Inicio;

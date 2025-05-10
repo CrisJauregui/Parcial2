@@ -1,7 +1,7 @@
 import { State } from "../flux/Store";
 import { Actions } from "../flux/Actions";
 
-class modificarJardin extends HTMLElement {
+class Jardin extends HTMLElement {
   static observedAttributes = ["color", "size"];
 
   constructor() {
@@ -30,6 +30,4 @@ class modificarJardin extends HTMLElement {
   }
 }
 
-customElements.define("modificar-Jardin", modificarJardin);
-
-export default modificarJardin;
+export default Jardin;
